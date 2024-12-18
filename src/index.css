@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .btn-info {
+    @apply bg-orange-500 text-white font-medium py-2 rounded;
+  }
+  .form-control {
+    @apply bg-gray-200 px-6 py-2 text-xl w-full;
+  }
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border-bottom: 4px dotted orange;
+  border-left: 4px dotted orange;
+  border-top: 4px dotted orange;
+  border-radius: 50%;
+}
