@@ -64,7 +64,7 @@ const Signup = () => {
             <label htmlFor="" className=""></label>
             <input
               onChange={(e) => handleInput(e)}
-              type="text"
+              type="password"
               className="bg-gray-200 py-2 text-xl px-2"
               placeholder="Enter Password"
               name="password"
